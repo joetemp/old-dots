@@ -1,0 +1,34 @@
+!Background color
+URxvt*background: #222222
+! Font color
+URxvt*foreground: #D0D0D0
+
+!Gray-Mid
+URxvt*color0: #585858  
+URxvt*color8: #585858
+!Purples
+URxvt*color1: #9B59B6
+URxvt*color9: #D284F3
+!Pink
+URxvt*color2: #FF5A97
+URxvt*color10: #FF5A97
+!Orange #EE853E
+URxvt*color3: #FF0000
+URxvt*color11: #FF0000
+!Grays
+URxvt*color4: #303030
+URxvt*color12: #585858 
+!Blue
+URxvt*color5: #87DFFA
+URxvt*color13: #87DFFA
+!Green
+URxvt*color6: #AFDF42
+URxvt*color14: #AFDF42
+!Yellow
+URxvt*color7: #F2F035 
+URxvt*color15: #F2F035
+
+! Other Settings
+URxvt*scrollBar: false
+Xft.antialias: 1
+urxvt.font: xft:terminus :pixelsize=12
