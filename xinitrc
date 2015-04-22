@@ -20,7 +20,7 @@ xrandr --output DP-0 --auto --output HDMI-0 --auto --primary  --right-of DP-0 --
 
 # This sets my wallpaper.
 
-feh --bg-scale --no-xinerama ~/Pictures/Wallpapers/dots.png
+feh --bg-scale --no-xinerama ~/pictures/wallpapers/dots.png
 sh ~/.fehbg &
 
 #This makes sure my fonts are found by X
