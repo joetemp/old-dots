@@ -84,7 +84,7 @@ super + Return
 	urxvt
 
 super + space
-	dmenu_run -b -nb "#222222" -nf "#585858" -sb "#87DFFA" -sf "#222222" 
+	dmenu_run -b -nb "#222222" -nf "#585858" -sb "#87DFFA" -sf "#222222" -fn "-*-terminus-medium-r-normal-*-*-*-*-*-c-*-iso10646-1" 
 
 super + Escape
 	systemctl suspend
