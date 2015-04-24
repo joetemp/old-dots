@@ -38,15 +38,10 @@ syntax on
 "Blue
 :highlight Statement ctermfg=5
 "Light gray
-:highlight Constant ctermfg=12
+:highlight Constant ctermfg=246
 "Dark gray
 :highlight htmlTag ctermfg=5
 "Dark gray
 :highlight htmlEndTag ctermfg=5
 :highlight LineNr ctermfg=12
-:highlight htmlTitle ctermfg=252
-:highlight htmlScriptTag ctermfg=1
-:highlight scriptOpen ctermfg=1
-:match scriptOpen '<\?script'
-:highlight scriptClose ctermfg=1
-:2match scriptClose '</\?script>'
+:highlight htmlTitle ctermfg=255
