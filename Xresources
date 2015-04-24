@@ -13,8 +13,8 @@ URxvt*color9: #D284F3
 URxvt*color2: #FF5A97
 URxvt*color10: #FF5A97
 !Orange #EE853E
-URxvt*color3: #FF0000
-URxvt*color11: #FF0000
+URxvt*color3: #EE853E
+URxvt*color11: #EE853E
 !Grays
 URxvt*color4: #303030
 URxvt*color12: #585858 
