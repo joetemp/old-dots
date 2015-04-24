@@ -80,6 +80,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias localhost="cd /srv/http"
 alias color="~/scripts/color.sh"
+alias pac="~/scripts/pac.sh"
+alias space="~/scripts/space.sh"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
