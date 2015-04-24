@@ -44,3 +44,9 @@ syntax on
 "Dark gray
 :highlight htmlEndTag ctermfg=5
 :highlight LineNr ctermfg=12
+:highlight htmlTitle ctermfg=252
+:highlight htmlScriptTag ctermfg=1
+:highlight scriptOpen ctermfg=1
+:match scriptOpen '<\?script'
+:highlight scriptClose ctermfg=1
+:2match scriptClose '</\?script>'
