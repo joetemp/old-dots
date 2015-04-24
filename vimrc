@@ -27,9 +27,20 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 :set laststatus=2
+:set number
 :set noshowmode
 :set expandtab
 :set tabstop=4
+:set paste
 syntax on
+"Light gray
 :highlight Comment ctermfg=12
-:highlight Statement ctermfg=3
+"Blue
+:highlight Statement ctermfg=5
+"Light gray
+:highlight Constant ctermfg=12
+"Dark gray
+:highlight htmlTag ctermfg=5
+"Dark gray
+:highlight htmlEndTag ctermfg=5
+:highlight LineNr ctermfg=12
