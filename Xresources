@@ -28,9 +28,6 @@ URxvt*color14: #AFDF42
 URxvt*color7: #F2F035 
 URxvt*color15: #F2F035
 
-!Test
-URxvt*color30: #D0D0D0
-
 ! Other Settings
 URxvt*scrollBar: false
 Xft.antialias: 1
