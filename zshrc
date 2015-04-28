@@ -79,6 +79,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias localhost="cd /srv/http"
+alias agency="cd /srv/http/agency"
 alias color="~/scripts/color.sh"
 alias pac="~/scripts/pac.sh"
 alias space="~/scripts/space.sh"
