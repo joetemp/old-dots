@@ -39,9 +39,18 @@ syntax on
 :highlight Statement ctermfg=5
 "Light gray
 :highlight Constant ctermfg=246
+
+:highlight Identifier ctermfg=1
+
+:highlight Type ctermfg=2
 "Dark gray
 :highlight htmlTag ctermfg=5
 "Dark gray
 :highlight htmlEndTag ctermfg=5
 :highlight LineNr ctermfg=12
 :highlight htmlTitle ctermfg=255
+
+:highlight sassClass ctermfg=6
+:highlight sassClassChar ctermfg=6
+:highlight sassId ctermfg=6
+:highlight sassIdChar ctermfg=6
