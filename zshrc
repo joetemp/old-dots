@@ -78,9 +78,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Starts ssh-agent
-eval $(ssh-agent)
-
 #Joe's Aliases
 alias localhost="cd /srv/http"
 alias agency="cd /srv/http/agency"
