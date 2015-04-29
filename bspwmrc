@@ -32,7 +32,6 @@ bspc monitor DVI-I-1 -d 7 8 9
 bspc monitor ^1 -s ^2
 
 bspc rule -a Gimp desktop=^5 follow=on floating=on
-bspc rule -a Chromium desktop=^2
 bspc rule -a mplayer2 floating=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
