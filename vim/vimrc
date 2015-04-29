@@ -39,13 +39,13 @@ filetype plugin indent on    " required
 syntax on
 
 :hi Visual ctermbg=4
-:hi Error ctermfg=196  ctermbg=2
+:hi Error ctermfg=none  ctermbg=none
 :hi CursorLine cterm=bold ctermbg=4
 :hi CursorLineNr ctermfg=255 
 "Light gray
 :hi Comment ctermfg=12
 "Blue
-:hi Statement ctermfg=5
+:hi Statement ctermfg=6
 "Light gray
 :hi Constant ctermfg=246
 
@@ -53,13 +53,13 @@ syntax on
 
 :hi Type ctermfg=2
 "Dark gray
-:hi htmlTag ctermfg=5
+:hi htmlTag ctermfg=6
 "Dark gray
-:hi htmlEndTag ctermfg=5
+:hi htmlEndTag ctermfg=6
 :hi LineNr ctermfg=12
 :hi htmlTitle ctermfg=255
 
-:hi sassClass ctermfg=6
-:hi sassClassChar ctermfg=6
-:hi sassId ctermfg=6
-:hi sassIdChar ctermfg=6
+:hi sassClass ctermfg=5
+:hi sassClassChar ctermfg=5
+:hi sassId ctermfg=5
+:hi sassIdChar ctermfg=5
