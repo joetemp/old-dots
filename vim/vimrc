@@ -35,9 +35,9 @@ filetype plugin indent on    " required
 :set expandtab
 :set tabstop=4
 :set paste
-:set mouse+=a
 syntax on
 
+:hi MatchParen ctermbg=2 ctermfg=235
 :hi Visual ctermbg=4
 :hi Error ctermfg=196  ctermbg=2
 :hi CursorLine cterm=bold ctermbg=4
