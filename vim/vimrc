@@ -29,7 +29,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 :set laststatus=2
-:set number
+:nmap <C-N> :set invnumber<CR>
 :set cursorline
 :set noshowmode
 :set expandtab
