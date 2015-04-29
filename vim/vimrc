@@ -9,6 +9,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
+" Github repos
 Plugin 'itchyny/lightline.vim'
 
 " All of your Plugins must be added before the following line
@@ -28,29 +30,36 @@ filetype plugin indent on    " required
 
 :set laststatus=2
 :set number
+:set cursorline
 :set noshowmode
 :set expandtab
 :set tabstop=4
 :set paste
+:set mouse+=a
 syntax on
+
+:hi Visual ctermbg=4
+:hi Error ctermfg=196  ctermbg=2
+:hi CursorLine cterm=bold ctermbg=4
+:hi CursorLineNr ctermfg=255 
 "Light gray
-:highlight Comment ctermfg=12
+:hi Comment ctermfg=12
 "Blue
-:highlight Statement ctermfg=5
+:hi Statement ctermfg=5
 "Light gray
-:highlight Constant ctermfg=246
+:hi Constant ctermfg=246
 
-:highlight Identifier ctermfg=1
+:hi Identifier ctermfg=1
 
-:highlight Type ctermfg=2
+:hi Type ctermfg=2
 "Dark gray
-:highlight htmlTag ctermfg=5
+:hi htmlTag ctermfg=5
 "Dark gray
-:highlight htmlEndTag ctermfg=5
-:highlight LineNr ctermfg=12
-:highlight htmlTitle ctermfg=255
+:hi htmlEndTag ctermfg=5
+:hi LineNr ctermfg=12
+:hi htmlTitle ctermfg=255
 
-:highlight sassClass ctermfg=6
-:highlight sassClassChar ctermfg=6
-:highlight sassId ctermfg=6
-:highlight sassIdChar ctermfg=6
+:hi sassClass ctermfg=6
+:hi sassClassChar ctermfg=6
+:hi sassId ctermfg=6
+:hi sassIdChar ctermfg=6
