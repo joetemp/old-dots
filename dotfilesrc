@@ -3,8 +3,6 @@ repository = ~/dotfiles
 ignore = [
     '.git',
     '.gitignore',
-    '.netrwhist',
-    'error.log',
     '*.swp']
 externals = {
     '.bzr.log':     '/dev/null',
