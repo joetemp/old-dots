@@ -35,6 +35,7 @@ filetype plugin indent on    " required
 :set expandtab
 :set tabstop=4
 :set paste
+:set nowrap
 syntax on
 
 :hi MatchParen ctermbg=2 ctermfg=235
