@@ -78,12 +78,15 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#Joe's Functions
+source ~/shell/functions/spacey
+
 #Joe's Aliases
 alias localhost="cd /srv/http"
 alias agency="cd /srv/http/agency"
-alias color="~/scripts/color.sh"
-alias pac="~/scripts/pac.sh"
-alias space="~/scripts/space.sh"
+alias color="~/shell/scripts/color.sh"
+alias pac="~/shell/scripts/pac.sh"
+alias space="~/shell/scripts/space.sh"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
