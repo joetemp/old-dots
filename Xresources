@@ -1,3 +1,5 @@
+!Terminal
+urxvt*termName: rxvt-unicode-256color
 !Background color
 URxvt*background: #222222
 ! Font color
