@@ -13,6 +13,8 @@ mkfifo "$PANEL_FIFO"
 bspc config top_padding $PANEL_HEIGHT
 bspc control --subscribe > "$PANEL_FIFO" &
 clock -sf 'S%m/%d %H:%M' > "$PANEL_FIFO" &
+#This doesn't work.
+conky -c ~/.conkyrc > "$PANEL_FIFO" &
 
 . panel_colors
 
