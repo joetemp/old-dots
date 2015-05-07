@@ -12,6 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Github repos
 Plugin 'itchyny/lightline.vim'
+Plugin 'cakebaker/scss-syntax.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
