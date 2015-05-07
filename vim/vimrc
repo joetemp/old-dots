@@ -36,6 +36,7 @@ filetype plugin indent on    " required
 :set tabstop=4
 :set paste
 :set nowrap
+:set autoindent
 
 syntax on
 
