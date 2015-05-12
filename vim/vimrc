@@ -29,6 +29,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+au! FileType css,scss setl iskeyword+=-
+
 :set laststatus=2
 :nmap <C-N> :set invnumber<CR>
 :set cursorline
@@ -67,3 +69,6 @@ syntax on
 :hi sassClassChar ctermfg=6
 :hi sassId ctermfg=6
 :hi sassIdChar ctermfg=6
+
+:hi scssProperty ctermfg=2
+:hi scssAttribute ctermfg=246
