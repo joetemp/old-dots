@@ -34,3 +34,8 @@ URxvt*color15: #F2F035
 URxvt*scrollBar: false
 Xft.antialias: 1
 urxvt.font: xft:terminus :pixelsize=12
+
+! Clickable links
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
