@@ -78,8 +78,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Joe's Functions
+#Joe's Public Functions
 source ~/shell/functions/spacey
+
+# Joe's Private Functions
+source ~/.private/shell/functions/joe-phone
 
 #Joe's Aliases
 alias localhost="cd /srv/http"
