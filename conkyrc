@@ -33,4 +33,4 @@ uppercase no
 use_spacer none
 
 TEXT
-CPU Usage: $cpu% ${cpubar 4}
+$color${top_mem name 1}$alignr${top_mem mem_res 1}

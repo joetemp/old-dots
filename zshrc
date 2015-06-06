@@ -80,10 +80,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 #Joe's Public Functions
 source ~/shell/functions/spacey
-source ~/.private/shell/functions/joe
+source ~/shell/functions/adrian
 
 # Joe's Private Functions
 source ~/.private/shell/functions/joe-phone
+source ~/.private/shell/functions/joe
 
 #Joe's Aliases
 alias localhost="cd /srv/http"
