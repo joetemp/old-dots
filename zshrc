@@ -81,7 +81,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 #Joe's Public Functions
 source ~/shell/functions/spacey
 source ~/shell/functions/adrian
-source ~/shell/scripts/mp3
 
 # Joe's Private Functions
 source ~/.private/shell/functions/joe-phone
@@ -93,6 +92,7 @@ alias agency="cd /srv/http/agency"
 alias color="~/shell/scripts/color.sh"
 alias pac="~/shell/scripts/pac.sh"
 alias space="~/shell/scripts/space.sh"
+alias mp3-"~/shell/scripts/mp3.sh"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
