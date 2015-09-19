@@ -93,7 +93,7 @@ alias color="~/shell/scripts/color.sh"
 alias pac="~/shell/scripts/pac.sh"
 alias space="~/shell/scripts/space.sh"
 alias mp3="~/shell/scripts/mp3.sh"
-alias music_loop="~/shell/scripts/music_loop.sh"
+alias music-loop="~/shell/scripts/music-loop.sh"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
