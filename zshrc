@@ -92,7 +92,7 @@ alias agency="cd /srv/http/agency"
 alias color="~/shell/scripts/color.sh"
 alias pac="~/shell/scripts/pac.sh"
 alias space="~/shell/scripts/space.sh"
-alias mp3-"~/shell/scripts/mp3.sh"
+alias mp3="~/shell/scripts/mp3.sh"
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
