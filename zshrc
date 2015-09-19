@@ -81,6 +81,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 #Joe's Public Functions
 source ~/shell/functions/spacey
 source ~/shell/functions/adrian
+source ~/shell/scripts/mp3
 
 # Joe's Private Functions
 source ~/.private/shell/functions/joe-phone
