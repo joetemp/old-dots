@@ -36,7 +36,6 @@ au! FileType css,scss setl iskeyword+=-
 :set cursorline
 :set noshowmode
 
-:set tabstop=4
 :set shiftwidth=4
 :set expandtab
 
