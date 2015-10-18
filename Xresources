@@ -1,34 +1,34 @@
-!Terminal
+! Terminal
 urxvt*termName: rxvt-unicode-256color
-!Background color
-URxvt*background: #222222
+! Background color
+*background: #002b36
 ! Font color
-URxvt*foreground: #D0D0D0
+*foreground: #657b83
 
-!Gray-Mid
-URxvt*color0: #585858  
-URxvt*color8: #585858
-!Purples
-URxvt*color1: #9B59B6
-URxvt*color9: #D284F3
-!Pink
-URxvt*color2: #FF5A97
-URxvt*color10: #FF5A97
-!Orange 
-URxvt*color3: #EE853E
-URxvt*color11: #EE853E
-!Grays
-URxvt*color4: #303030
-URxvt*color12: #585858 
-!Blue
-URxvt*color5: #87DFFA
-URxvt*color13: #87DFFA
-!Green
-URxvt*color6: #AFDF42
-URxvt*color14: #AFDF42
-!Yellow
-URxvt*color7: #F2F035 
-URxvt*color15: #F2F035
+! Black dark/light
+*color0: #073642
+*color8: #002b36
+! Red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+! Green dark/light
+*color2: #859900
+*color10: #586e75
+! Yellow dark/light 
+*color3: #b58900
+*color11: #657b83
+! Blue dark/light
+*color4: #268bd2
+*color12: #839496
+! Magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+! Cyan dark/light
+*color6: #2aa198
+*color14: #93a1a1
+! White dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
 
 ! Other Settings
 URxvt*scrollBar: false
