@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 " Github repos
 Plugin 'itchyny/lightline.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'flazz/vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,6 +49,10 @@ au! FileType css,scss setl iskeyword+=-
 :set autoindent
 
 syntax on
+colorscheme solarized
+let g:lightline = {
+      \ 'colorscheme': 'solarized',
+      \ }
 
 :hi MatchParen ctermbg=2 ctermfg=235
 :hi Visual ctermbg=4
