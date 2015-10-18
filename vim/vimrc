@@ -35,8 +35,11 @@ au! FileType css,scss setl iskeyword+=-
 :nmap <C-N> :set invnumber<CR>
 :set cursorline
 :set noshowmode
-:set expandtab
+
 :set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
 :set paste
 :set nowrap
 :set autoindent
