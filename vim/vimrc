@@ -40,10 +40,8 @@ au! FileType css,scss setl iskeyword+=-
 :set shiftwidth=4
 :set expandtab
 
-:set paste
 :set nowrap
 :set autoindent
-:set sw=4
 
 syntax on
 
