@@ -102,4 +102,4 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
-LS_COLORS=$LS_COLORS:'di=0;34:' ; export LS_COLORS
+LS_COLORS=$LS_COLORS:'di=0;31:' ; export LS_COLORS
