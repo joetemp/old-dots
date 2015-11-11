@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/joe/.private/shell/functions'
 let g:netrw_dirhist_2='/srv/http/trailcam/shell/test'
+let g:netrw_dirhist_3='/home/joe/.config/bspwm'
