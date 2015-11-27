@@ -85,6 +85,7 @@ super + Return
 
 super + space
 	dmenu_run -b -nb "#002b36" -nf "#657b83" -sb "#073642" -sf "#fdf6e3" -fn "-*-terminus-medium-r-normal-*-*-*-*-*-c-*-iso10646-1" 
+	#dmenu_run -b -nb "#002b36" -nf "#657b83" -sb "#073642" -sf "#fdf6e3" -fn "terminus:style=bold:pixelsize=22"
 
 super + Escape
 	systemctl suspend
