@@ -30,7 +30,7 @@ bspc monitor DP-0 -d • • •
 bspc monitor HDMI-0 -d • • •
 bspc monitor DVI-I-1 -d • • •
 
-bspc monitor ^1 -s ^2
+#bspc monitor '^1' -s '^2'
 
 bspc rule -a Gimp desktop=^5 follow=on floating=on
 bspc rule -a mplayer2 floating=on
