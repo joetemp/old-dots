@@ -29,5 +29,5 @@ xset +fp ~/.local/share/fonts
 # This launches my WM and hotkey daemon. 
 
 sxhkd -f 100 &
-compton -b &
+compton --backend glx --paint-on-overlay --vsync opengl -b -c &  
 exec bspwm 
